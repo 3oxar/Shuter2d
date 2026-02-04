@@ -272,8 +272,10 @@ GameObject:
   - component: {fileID: 157125117}
   - component: {fileID: 157125116}
   - component: {fileID: 157125115}
+  - component: {fileID: 157125120}
   - component: {fileID: 157125118}
   - component: {fileID: 157125119}
+  - component: {fileID: 157125121}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -454,12 +456,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 576d835265794a242b9d808ff735b3ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JumpPlayer
+  _isGrounded: 0
   _jumpForce: 3
   _groundCheck: {fileID: 1487598039}
-  _groundCheckRadius: 0.2
+  _groundCheckRadius: 0.02
   _groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
+--- !u!95 &157125120
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157125113}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 65b023340fcb79947943e2f10293cd66, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &157125121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157125113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70cb7928920e76a4788fb8d7e55ba5bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationPlayer
 --- !u!1 &526317911
 GameObject:
   m_ObjectHideFlags: 0

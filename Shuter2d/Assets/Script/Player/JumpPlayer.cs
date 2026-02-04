@@ -6,6 +6,8 @@ using UnityEngine;
 /// </summary>
 public class JumpPlayer : MonoBehaviour
 {
+    [HideInInspector] public bool _isGrounded;
+
     [SerializeField] private float _jumpForce = 3;
     [SerializeField] private Transform _groundCheck;
     [SerializeField] private float _groundCheckRadius;
@@ -14,7 +16,6 @@ public class JumpPlayer : MonoBehaviour
     private Rigidbody2D _rb2;
     private Vector2 _moveInput;
     private PlayerController _inputPlayerController;
-    private bool _isGrounded;
 
     void Awake()
     {
@@ -41,7 +42,7 @@ public class JumpPlayer : MonoBehaviour
 
     void Update()
     {
-        _isGrounded = Physics2D.OverlapCircle(_groundCheck.position, _groundCheckRadius);
+        _isGrounded = Physics2D.OverlapCircle(_groundCheck.position, _groundCheckRadius, _groundLayer);
     }
 
     private void Jump()

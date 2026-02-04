@@ -3863,3 +3863,23 @@ Memory consumption went from 163.7 MB to 158.3 MB.
 Total: 16.365300 ms (FindLiveObjects: 1.007600 ms CreateObjectMapping: 1.177300 ms MarkObjects: 9.077900 ms  DeleteObjects: 5.099700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 596.539256 seconds.
+  path: Assets/Script/Player/MovePlayer.cs
+  artifactKey: Guid(19d6f90751bd5ea4da57f03d4ff376b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Script/Player/MovePlayer.cs using Guid(19d6f90751bd5ea4da57f03d4ff376b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94b2de4381f7549310400556e37d825b') in 0.3506636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/LevelPlay.unity
+  artifactKey: Guid(aa52b678ba28a6040848e210cb3c0378) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/LevelPlay.unity using Guid(aa52b678ba28a6040848e210cb3c0378) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00c572e91544341366d279f796001f1e') in 0.0199423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
