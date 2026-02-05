@@ -39,7 +39,7 @@ public class EnemyRangeAttack : MonoBehaviour
         if (bullet != null)
         {
             Vector2 direction = (player.position - firePoint.position).normalized;
-            bullet.Launch(direction);
+            bullet.Launch(direction, gameObject);
         }
     }
 

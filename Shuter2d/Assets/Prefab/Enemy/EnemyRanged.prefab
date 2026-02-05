@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 8511015012605230587}
   - component: {fileID: 6943685261374157790}
   - component: {fileID: 2756196961793981685}
+  - component: {fileID: 147721088361077485}
+  - component: {fileID: 8287603904014944132}
   m_Layer: 0
   m_Name: EnemyRanged
   m_TagString: Untagged
@@ -136,7 +138,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3519d7110414c4882258103e2e5bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  bulletPrefab: {fileID: 3590167878746304885, guid: af74f9bb07723f04b93d2917ad919558, type: 3}
+  bulletPrefab: {fileID: 3590167878746304885, guid: 74e33fe16f31508499e5a2c67545ce07, type: 3}
   firePoint: {fileID: 7756839410333943757}
-  detectionRange: 3
+  detectionRange: 1.5
   fireRate: 2
+--- !u!114 &147721088361077485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432870253715083760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1f68de8d1198241a090ef85e21066a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  _healthPlayer: 2
+  _gameObject: {fileID: 6432870253715083760}
+--- !u!61 &8287603904014944132
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432870253715083760}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0038431883, y: -0.073020756}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.19675136, y: 0.1865027}
+  m_EdgeRadius: 0

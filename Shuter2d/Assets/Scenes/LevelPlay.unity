@@ -350,7 +350,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -6367560908665664636, guid: 3750f45c844123341b9a777a96cb1eca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -541,7 +541,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &345308291
 GameObject:
   m_ObjectHideFlags: 0
@@ -850,6 +850,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1170646814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9124959917527703141, guid: 3481c39eeb8843c4d9696f42b7e3e5d3, type: 3}
+  m_PrefabInstance: {fileID: 2645334903612645811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1170646821
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170646814}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1301449245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,10 +1226,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8702055403169110970, guid: 3481c39eeb8843c4d9696f42b7e3e5d3, type: 3}
+      propertyPath: _healthPlayer
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9124959917527703141, guid: 3481c39eeb8843c4d9696f42b7e3e5d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1170646821}
   m_SourcePrefab: {fileID: 100100000, guid: 3481c39eeb8843c4d9696f42b7e3e5d3, type: 3}
 --- !u!1001 &6314878255151714893
 PrefabInstance:
@@ -1207,10 +1246,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2756196961793981685, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
-      propertyPath: detectionRange
-      value: 1.5
-      objectReference: {fileID: 0}
     - target: {fileID: 6432870253715083760, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
       propertyPath: m_Name
       value: EnemyRanged
@@ -1261,27 +1296,40 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6432870253715083760, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 6314878255151714897}
+      addedObject: {fileID: 6314878255151714902}
   m_SourcePrefab: {fileID: 100100000, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
 --- !u!1 &6314878255151714894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6432870253715083760, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
   m_PrefabInstance: {fileID: 6314878255151714893}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &6314878255151714897
-MonoBehaviour:
+--- !u!50 &6314878255151714902
+Rigidbody2D:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6314878255151714894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b1f68de8d1198241a090ef85e21066a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  _healthPlayer: 10
-  _gameObject: {fileID: 6314878255151714894}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

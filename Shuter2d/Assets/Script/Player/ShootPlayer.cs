@@ -49,7 +49,7 @@ public class ShootPlayer : MonoBehaviour
             if (bulletScript != null)
             {
                
-                bulletScript.Launch(_directionToTarget);
+                bulletScript.Launch(_directionToTarget, gameObject);
             }
             nextFireTime = Time.time + _fireRate;
         }

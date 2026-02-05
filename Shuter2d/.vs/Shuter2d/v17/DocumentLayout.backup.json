@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "Z:\\Project\\Shuter2d\\Shuter2d\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\enemy\\range\\enemyrangeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\range\\enemyrangeattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\bullet\\flybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bullet\\flybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +54,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FlyBullet.cs",
+              "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Bullet\\FlyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Bullet\\FlyBullet.cs",
+              "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Bullet\\FlyBullet.cs",
+              "RelativeToolTip": "Assets\\Script\\Bullet\\FlyBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:42:58.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyRangeAttack.cs",
+              "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\Range\\EnemyRangeAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Range\\EnemyRangeAttack.cs",
+              "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\Range\\EnemyRangeAttack.cs",
+              "RelativeToolTip": "Assets\\Script\\Enemy\\Range\\EnemyRangeAttack.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:39:23.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyHealth.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EnemyMeleeAttack.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\Melee\\EnemyMeleeAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Melee\\EnemyMeleeAttack.cs",
@@ -75,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "EnemyMove.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\Melee\\EnemyMove.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Melee\\EnemyMove.cs",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HealthPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\HealthPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\HealthPlayer.cs",
@@ -99,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ShootPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\ShootPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\ShootPlayer.cs",
@@ -111,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FlipSpritePlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\FlipSpritePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\FlipSpritePlayer.cs",
@@ -123,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AnimationPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\AnimationPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\AnimationPlayer.cs",
@@ -135,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "JumpPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\JumpPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\JumpPlayer.cs",
@@ -147,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MovePlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\MovePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\MovePlayer.cs",
