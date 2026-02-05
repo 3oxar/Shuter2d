@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "Z:\\Project\\Shuter2d\\Shuter2d\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|Z:\\Project\\Shuter2d\\Shuter2d\\assets\\script\\player\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\player\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\player\\shootplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|Z:\\Project\\Shuter2d\\Shuter2d\\assets\\script\\player\\shootplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\shootplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Assets\\Script\\Player\\HealthPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:22:35.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T11:22:35.542Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Assets\\Script\\Player\\ShootPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:12:16.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T11:12:16.74Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Assets\\Script\\Player\\FlipSpritePlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T10:37:46.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T10:37:46.226Z"
             },
             {
               "$type": "Document",
@@ -85,8 +82,7 @@
               "RelativeToolTip": "Assets\\Script\\Player\\AnimationPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T09:20:21.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T09:20:21.077Z"
             },
             {
               "$type": "Document",
@@ -98,8 +94,7 @@
               "RelativeToolTip": "Assets\\Script\\Player\\JumpPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T09:23:25.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T09:23:25.578Z"
             },
             {
               "$type": "Document",
