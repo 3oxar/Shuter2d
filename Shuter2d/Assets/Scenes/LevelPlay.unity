@@ -882,6 +882,40 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &1170646829
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170646814}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: de73cdbd51b1a4e429a03c2fe0f351a1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1170646830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170646814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d9b10aff257a2449fdf826f0beffe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAnimation
 --- !u!1 &1301449245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1271,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9124959917527703141, guid: 3481c39eeb8843c4d9696f42b7e3e5d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1170646821}
+    - targetCorrespondingSourceObject: {fileID: 9124959917527703141, guid: 3481c39eeb8843c4d9696f42b7e3e5d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1170646829}
+    - targetCorrespondingSourceObject: {fileID: 9124959917527703141, guid: 3481c39eeb8843c4d9696f42b7e3e5d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1170646830}
   m_SourcePrefab: {fileID: 100100000, guid: 3481c39eeb8843c4d9696f42b7e3e5d3, type: 3}
 --- !u!1001 &6314878255151714893
 PrefabInstance:
@@ -1297,6 +1337,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6432870253715083760, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6314878255151714902}
+    - targetCorrespondingSourceObject: {fileID: 6432870253715083760, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6314878255151714908}
+    - targetCorrespondingSourceObject: {fileID: 6432870253715083760, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6314878255151714909}
   m_SourcePrefab: {fileID: 100100000, guid: 4e31f04eef11a1f46bea53d0a1bb0bbd, type: 3}
 --- !u!1 &6314878255151714894 stripped
 GameObject:
@@ -1330,6 +1376,40 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!95 &6314878255151714908
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6314878255151714894}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 31193055c1a5c4d46acf0cf8d3686ea8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6314878255151714909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6314878255151714894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d9b10aff257a2449fdf826f0beffe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyRangeAnimation
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

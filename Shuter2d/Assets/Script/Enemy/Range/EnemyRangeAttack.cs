@@ -2,31 +2,34 @@ using UnityEngine;
 
 public class EnemyRangeAttack : MonoBehaviour
 {
-    public GameObject bulletPrefab; 
-    public Transform firePoint;  
-    public float detectionRange = 3f;
-    public float fireRate = 2f;
+    [SerializeField] private GameObject bulletPrefab; 
+    [SerializeField] private Transform firePoint;  
+    [SerializeField] private float detectionRange = 3f;
+    [SerializeField] private float fireRate = 2f;
 
-    private Transform player;
-    private float nextFireTime;
+    private Transform _player;
+    private float _nextFireTime;
+    private EnemyAnimation _animator; 
 
     void Start()
     {
-        player = FindAnyObjectByType<HealthPlayer>().transform;
+        _player = FindAnyObjectByType<HealthPlayer>().transform;
+        _animator = GetComponent<EnemyAnimation>();
     }
 
     void Update()
     {
-        if (player == null) return;
+        if (_player == null) return;
 
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        float distanceToPlayer = Vector2.Distance(transform.position, _player.position);
 
         if (distanceToPlayer <= detectionRange)
         {
-            if (Time.time >= nextFireTime)
+            if (Time.time >= _nextFireTime)
             {
                 Shoot();
-                nextFireTime = Time.time + fireRate; 
+                _animator.AnimAbility();
+                _nextFireTime = Time.time + fireRate; 
             }
         }
     }
@@ -38,7 +41,7 @@ public class EnemyRangeAttack : MonoBehaviour
 
         if (bullet != null)
         {
-            Vector2 direction = (player.position - firePoint.position).normalized;
+            Vector2 direction = (_player.position - firePoint.position).normalized;
             bullet.Launch(direction, gameObject);
         }
     }
