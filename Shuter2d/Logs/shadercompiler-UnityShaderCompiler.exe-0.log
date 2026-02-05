@@ -1,3 +1,4 @@
 Base path: 'G:/Program/Unity/UnityVERS/6000.3.6f1/Editor/Data', plugins path 'G:/Program/Unity/UnityVERS/6000.3.6f1/Editor/Data/PlaybackEngines', jobs: y
 Cmd: initializeCompiler
 
+Cmd: shutdown

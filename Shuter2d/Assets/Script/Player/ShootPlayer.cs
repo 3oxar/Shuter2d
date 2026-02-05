@@ -51,6 +51,7 @@ public class ShootPlayer : MonoBehaviour
                
                 bulletScript.Launch(_directionToTarget);
             }
+            nextFireTime = Time.time + _fireRate;
         }
         
     }
