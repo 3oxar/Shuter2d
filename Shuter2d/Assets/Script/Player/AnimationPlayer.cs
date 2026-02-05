@@ -31,7 +31,6 @@ public class AnimationPlayer : MonoBehaviour
         _inputPlayerController.Disable();
     }
 
-    // Update is called once per frame
     void Update()
     {
         _animator.SetFloat("Run", Mathf.Abs(_moveInput.x));

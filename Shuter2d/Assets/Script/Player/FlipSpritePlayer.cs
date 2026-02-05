@@ -1,19 +1,17 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class FlipSpritePlayer : MonoBehaviour
 {
-    private Animator _animator;
-    private Vector2 _moveInput;
+   
     private PlayerController _inputPlayerController;
     private bool isRight = true;
+    private Vector3 _mousePosition;
+    
 
     void Awake()
     {
         _inputPlayerController = new PlayerController();
-        _animator = GetComponent<Animator>();
-
-        _inputPlayerController.Player.Move.performed += x => _moveInput = x.ReadValue<Vector2>();
-        _inputPlayerController.Player.Move.canceled += x => _moveInput = Vector2.zero;
     }
 
     private void OnEnable()
@@ -29,9 +27,11 @@ public class FlipSpritePlayer : MonoBehaviour
     
     void Update()
     {
-        if (_moveInput.x > 0 && !isRight)
+        _mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+
+        if (_mousePosition.x > transform.position.x && !isRight)
             Flip();
-        else if (_moveInput.x < 0 && isRight)
+        else if (_mousePosition.x < transform.position.x && isRight)
             Flip();
     }
 

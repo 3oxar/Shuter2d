@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "Z:\\Project\\Shuter2d\\Shuter2d\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\player\\shootplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\shootplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\bullet\\flybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bullet\\flybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\player\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|Z:\\Project\\Shuter2d\\Shuter2d\\assets\\script\\player\\jumpplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\flipspriteplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|Z:\\Project\\Shuter2d\\Shuter2d\\assets\\script\\player\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|Z:\\Project\\Shuter2d\\Shuter2d\\assets\\script\\player\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|Z:\\Project\\Shuter2d\\Shuter2d\\assets\\script\\player\\shootplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\shootplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "HealthPlayer.cs",
+              "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\HealthPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\HealthPlayer.cs",
+              "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\HealthPlayer.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\HealthPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T11:22:35.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ShootPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\ShootPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\ShootPlayer.cs",
               "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\ShootPlayer.cs",
               "RelativeToolTip": "Assets\\Script\\Player\\ShootPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:12:16.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T11:12:16.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FlyBullet.cs",
-              "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Bullet\\FlyBullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Bullet\\FlyBullet.cs",
-              "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Bullet\\FlyBullet.cs",
-              "RelativeToolTip": "Assets\\Script\\Bullet\\FlyBullet.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:08:12.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "FlipSpritePlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\FlipSpritePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\FlipSpritePlayer.cs",
               "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\FlipSpritePlayer.cs",
               "RelativeToolTip": "Assets\\Script\\Player\\FlipSpritePlayer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T10:37:46.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T10:37:46.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AnimationPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\AnimationPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\AnimationPlayer.cs",
               "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\AnimationPlayer.cs",
               "RelativeToolTip": "Assets\\Script\\Player\\AnimationPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T09:20:21.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T09:20:21.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "JumpPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\JumpPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\JumpPlayer.cs",
               "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\JumpPlayer.cs",
               "RelativeToolTip": "Assets\\Script\\Player\\JumpPlayer.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T09:23:25.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T09:23:25.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MovePlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\MovePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\MovePlayer.cs",
               "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\MovePlayer.cs",
               "RelativeToolTip": "Assets\\Script\\Player\\MovePlayer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T09:20:26.58Z"
+              "WhenOpened": "2026-02-04T09:20:26.58Z",
+              "EditorCaption": ""
             }
           ]
         }
