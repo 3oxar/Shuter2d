@@ -20,7 +20,7 @@ public class EnemyMeleeAttack : MonoBehaviour
         if (healthPlayer != null &&   Time.time >= nextFireTime)
         {
             healthPlayer.TakeDamage(_damage);
-            _animator.AnimAttack2();
+            _animator.ActivTriggerAnim("Attack 2");
             nextFireTime = Time.time + _fireRate;
         }
     }

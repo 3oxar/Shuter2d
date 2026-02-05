@@ -28,7 +28,7 @@ public class EnemyRangeAttack : MonoBehaviour
             if (Time.time >= _nextFireTime)
             {
                 Shoot();
-                _animator.AnimAbility();
+                _animator.ActivTriggerAnim("Ability");
                 _nextFireTime = Time.time + fireRate; 
             }
         }

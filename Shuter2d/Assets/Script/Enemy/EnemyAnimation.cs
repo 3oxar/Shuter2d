@@ -11,26 +11,8 @@ public class EnemyAnimation : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    public void AnimIdle()
+    public void ActivTriggerAnim(string nameTrigger)
     {
-        _animator.SetBool("Idle", !_animator.GetBool("Idle"));
+        _animator.SetTrigger(nameTrigger);
     }
-
-    public void AnimAbility()
-    {
-        _animator.SetBool("Ability", !_animator.GetBool("Ability"));
-    }
-    
-    public void AnimAttack2()
-    {
-        _animator.SetBool("Attack 2", !_animator.GetBool("Attack 2"));
-        
-    }
-
-    public void AnimRun()
-    {
-
-        _animator.SetBool("Run", !_animator.GetBool("Run"));
-    }
-
 }
