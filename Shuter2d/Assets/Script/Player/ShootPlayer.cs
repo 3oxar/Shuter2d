@@ -8,19 +8,31 @@ public class ShootPlayer : MonoBehaviour
     [SerializeField] private Transform _firePoint;
     [SerializeField] private float _fireRate = 0.5f;
     [SerializeField] private Camera _mainCamera;
+    [SerializeField] private int _ammunation = 5;
+    [SerializeField] private float _reloadTime = 3;
+    [SerializeField] private TextCanvas _textCanvas;
 
     private PlayerController _inputPlayerController;
-    private float nextFireTime = 0;
+    private float _nextFireTime = 0;
+    private int _ammunationCoutReload;
 
     private Vector3 _mousePosition;
     private Vector3 _worldMousePosition;
     private Vector2 _directionToTarget;
 
+
     void Awake()
     {
         _inputPlayerController = new PlayerController();
+      
 
         _inputPlayerController.Player.Shoot.performed += x => Fire();
+        _ammunationCoutReload = _ammunation;
+    }
+
+    private void Start()
+    {
+        _textCanvas.WriteText(_ammunation.ToString());
     }
 
     private void OnEnable()
@@ -35,23 +47,28 @@ public class ShootPlayer : MonoBehaviour
 
     private void Fire()
     {
-        if(Time.time >= nextFireTime)
+        if(Time.time >= _nextFireTime && _ammunation > 0)
         {
             _mousePosition = Mouse.current.position.ReadValue();
             _worldMousePosition = _mainCamera.ScreenToWorldPoint(_mousePosition);
             _worldMousePosition.z = 0;
             _directionToTarget = (_worldMousePosition - _firePoint.position).normalized;
-           
          
             GameObject bulletGO = Instantiate(_bulletPrefab, _firePoint.position, Quaternion.identity);
             FlyBullet bulletScript = bulletGO.GetComponent<FlyBullet>();
 
             if (bulletScript != null)
             {
-               
+                _ammunation--;
+                _textCanvas.WriteText(_ammunation.ToString());
                 bulletScript.Launch(_directionToTarget, gameObject);
             }
-            nextFireTime = Time.time + _fireRate;
+            _nextFireTime = Time.time + _fireRate;
+        }
+        else if(Time.time >= _nextFireTime && _ammunation < 1)
+        {
+            _ammunation = 5;
+            _nextFireTime = Time.time + _reloadTime;
         }
         
     }
