@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -68,8 +69,14 @@ public class ShootPlayer : MonoBehaviour
         else if(Time.time >= _nextFireTime && _ammunation < 1)
         {
             _ammunation = 5;
+            StartCoroutine(WriteReloadAmmunation());
             _nextFireTime = Time.time + _reloadTime;
         }
-        
+    }
+
+    private IEnumerator WriteReloadAmmunation()
+    {
+        yield return new WaitForSeconds(_nextFireTime);
+        _textCanvas.WriteText(_ammunation.ToString());
     }
 }

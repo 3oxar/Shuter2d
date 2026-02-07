@@ -7,10 +7,12 @@ public class HealthPlayer : MonoBehaviour, IHealth
 
     [SerializeField] private int _healthPlayer = 10;
     [SerializeField] private TextCanvas _textCanvas;
-
+    [SerializeField] private EndGamePlayer _endGame;
     private void Start()
     {
+       
         _textCanvas.WriteText(_healthPlayer.ToString());
+        
     }
 
 
@@ -27,6 +29,7 @@ public class HealthPlayer : MonoBehaviour, IHealth
     public void Die()
     {
         Destroy(gameObject);
+        _endGame.EndGame();
     }
 
 }
