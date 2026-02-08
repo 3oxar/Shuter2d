@@ -3,7 +3,7 @@ using UnityEngine;
 public class FlyBullet : MonoBehaviour
 {
     [SerializeField] private float _speed = 10;
-    [SerializeField] private int _damage = 1;
+    [SerializeField] private int _damage = 4;
     private Rigidbody2D _rb;
     private Collider2D _bulletColl;
     private Collider2D _actorFire;
