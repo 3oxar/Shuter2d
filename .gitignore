@@ -41,3 +41,8 @@ ehthumbs.db
 Thumbs.db
 WwiseUnityIntegration_iOS_Src.zip
 /[Tt]raining[Pp]roject/[Aa]ssets/Wwise/API/Runtime/Plugins/iOS/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+.vs/
+*.sln
+*.csproj
