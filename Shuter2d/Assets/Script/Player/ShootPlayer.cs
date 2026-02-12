@@ -12,6 +12,7 @@ public class ShootPlayer : MonoBehaviour
     [SerializeField] private int _ammunation = 5;
     [SerializeField] private float _reloadTime = 3;
     [SerializeField] private TextCanvas _textCanvas;
+    [SerializeField] private AudioSource _audioSource;
 
     private PlayerController _inputPlayerController;
     private float _nextFireTime = 0;
@@ -50,6 +51,7 @@ public class ShootPlayer : MonoBehaviour
     {
         if(Time.time >= _nextFireTime && _ammunation > 0)
         {
+            
             _mousePosition = Mouse.current.position.ReadValue();
             _worldMousePosition = _mainCamera.ScreenToWorldPoint(_mousePosition);
             _worldMousePosition.z = 0;
@@ -60,6 +62,7 @@ public class ShootPlayer : MonoBehaviour
 
             if (bulletScript != null)
             {
+                _audioSource.Play();
                 _ammunation--;
                 _textCanvas.WriteText(_ammunation.ToString());
                 bulletScript.Launch(_directionToTarget, gameObject);
@@ -69,6 +72,7 @@ public class ShootPlayer : MonoBehaviour
         else if(Time.time >= _nextFireTime && _ammunation < 1)
         {
             _ammunation = 5;
+            _textCanvas.WriteText(_ammunation.ToString());
             StartCoroutine(WriteReloadAmmunation());
             _nextFireTime = Time.time + _reloadTime;
         }

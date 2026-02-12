@@ -285,12 +285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42b5fba9e033cf64a947ab16cace71a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundController
-  _audioMusic:
-  - {fileID: 1546626780}
-  _audioSound:
-  - {fileID: 1741277064}
   _sliderSound: {fileID: 246780563}
   _sliderMusic: {fileID: 280145887}
+  _audioMixer: {fileID: 24100000, guid: 27df3a9b2bcb20b4590c2889774b9735, type: 2}
 --- !u!4 &30902818
 Transform:
   m_ObjectHideFlags: 0
@@ -638,10 +635,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 355541216}
   m_HandleRect: {fileID: 862999848}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -882,10 +879,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1284144523}
   m_HandleRect: {fileID: 279050081}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.001
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2823,7 +2820,7 @@ AudioSource:
   m_GameObject: {fileID: 1546626779}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 5774685714237353050, guid: 27df3a9b2bcb20b4590c2889774b9735, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 14c6067613575bc4c9bf5476a2cfc9c4, type: 3}
   m_PlayOnAwake: 1
@@ -3133,7 +3130,7 @@ AudioSource:
   m_GameObject: {fileID: 1741277063}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 3579606686525650699, guid: 27df3a9b2bcb20b4590c2889774b9735, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a6140522672335a4d9de904059e431aa, type: 3}
   m_PlayOnAwake: 0
