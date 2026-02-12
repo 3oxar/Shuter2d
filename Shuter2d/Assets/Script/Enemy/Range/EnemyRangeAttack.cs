@@ -6,6 +6,7 @@ public class EnemyRangeAttack : MonoBehaviour
     [SerializeField] private Transform firePoint;  
     [SerializeField] private float detectionRange = 3f;
     [SerializeField] private float fireRate = 2f;
+    [SerializeField] private AudioSource _audioSource;
 
     private Transform _player;
     private float _nextFireTime;
@@ -41,6 +42,7 @@ public class EnemyRangeAttack : MonoBehaviour
 
         if (bullet != null)
         {
+            _audioSource.Play();
             Vector2 direction = (_player.position - firePoint.position).normalized;
             bullet.Launch(direction, gameObject);
         }
