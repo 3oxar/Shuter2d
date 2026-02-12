@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "Z:\\Project\\Shuter2d\\Shuter2d\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\sound\\soundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\sound\\soundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\player\\endgameplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\endgameplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\scoreplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|Z:\\Project\\Shuter2d\\Shuter2d\\assets\\script\\time\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|z:\\project\\shuter2d\\shuter2d\\assets\\script\\time\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{686D3463-3686-E003-7588-169B31190E98}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\time\\timecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -78,24 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SoundController.cs",
-              "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Sound\\SoundController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Sound\\SoundController.cs",
-              "ToolTip": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Sound\\SoundController.cs",
-              "RelativeToolTip": "Assets\\Script\\Sound\\SoundController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T16:03:13.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "TimeController.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Time\\TimeController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Time\\TimeController.cs",
@@ -103,11 +86,12 @@
               "RelativeToolTip": "Assets\\Script\\Time\\TimeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T17:04:34.927Z"
+              "WhenOpened": "2026-02-07T17:04:34.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EndGamePlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\EndGamePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\EndGamePlayer.cs",
@@ -120,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ScorePlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\ScorePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\ScorePlayer.cs",
@@ -128,11 +112,12 @@
               "RelativeToolTip": "Assets\\Script\\Player\\ScorePlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T14:05:23.667Z"
+              "WhenOpened": "2026-02-06T14:05:23.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TextCanvas.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Canvas\\TextCanvas.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Canvas\\TextCanvas.cs",
@@ -140,11 +125,12 @@
               "RelativeToolTip": "Assets\\Script\\Canvas\\TextCanvas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T13:40:16.481Z"
+              "WhenOpened": "2026-02-06T13:40:16.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "EnemyMeleeAttack.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\Melee\\EnemyMeleeAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Melee\\EnemyMeleeAttack.cs",
@@ -156,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "EnemyAnimation.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\EnemyAnimation.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyAnimation.cs",
@@ -168,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "EnemyRangeAttack.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\Range\\EnemyRangeAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\Range\\EnemyRangeAttack.cs",
@@ -176,11 +162,12 @@
               "RelativeToolTip": "Assets\\Script\\Enemy\\Range\\EnemyRangeAttack.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T10:39:23.142Z"
+              "WhenOpened": "2026-02-05T10:39:23.142Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HealthPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\HealthPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\HealthPlayer.cs",
@@ -188,11 +175,12 @@
               "RelativeToolTip": "Assets\\Script\\Player\\HealthPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:22:35.542Z"
+              "WhenOpened": "2026-02-04T11:22:35.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Enemy\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Enemy\\EnemyHealth.cs",
@@ -204,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "FlyBullet.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Bullet\\FlyBullet.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Bullet\\FlyBullet.cs",
@@ -212,11 +200,12 @@
               "RelativeToolTip": "Assets\\Script\\Bullet\\FlyBullet.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T10:42:58.927Z"
+              "WhenOpened": "2026-02-05T10:42:58.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "IHealth.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Interface\\IHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Interface\\IHealth.cs",
@@ -228,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ShootPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\ShootPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\ShootPlayer.cs",
@@ -236,11 +225,12 @@
               "RelativeToolTip": "Assets\\Script\\Player\\ShootPlayer.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAwwEoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T11:12:16.74Z"
+              "WhenOpened": "2026-02-04T11:12:16.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "FlipSpritePlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\FlipSpritePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\FlipSpritePlayer.cs",
@@ -252,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "AnimationPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\AnimationPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\AnimationPlayer.cs",
@@ -264,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "JumpPlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\JumpPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\JumpPlayer.cs",
@@ -276,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "MovePlayer.cs",
               "DocumentMoniker": "Z:\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Player\\MovePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Player\\MovePlayer.cs",
