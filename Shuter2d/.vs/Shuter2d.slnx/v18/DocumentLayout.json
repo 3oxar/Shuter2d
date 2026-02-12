@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Data\\Project\\Shuter2d\\Shuter2d\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\data\\project\\shuter2d\\shuter2d\\assets\\script\\sound\\soundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\sound\\soundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Data\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Sound\\SoundController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Sound\\SoundController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Data\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Sound\\MusicController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SoundController.cs",
-              "DocumentMoniker": "C:\\Data\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Sound\\SoundController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Sound\\SoundController.cs",
-              "ToolTip": "C:\\Data\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Sound\\SoundController.cs",
-              "RelativeToolTip": "Assets\\Script\\Sound\\SoundController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T13:57:04.399Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -67,8 +54,7 @@
               "RelativeToolTip": "Assets\\Script\\Enemy\\Melee\\EnemyMeleeAttack.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:09:16.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T17:09:16.629Z"
             },
             {
               "$type": "Document",
@@ -92,7 +78,19 @@
               "RelativeToolTip": "Assets\\Script\\Sound\\MusicController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T13:56:47.738Z",
+              "WhenOpened": "2026-02-09T13:56:47.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoundController.cs",
+              "DocumentMoniker": "C:\\Data\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Sound\\SoundController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Sound\\SoundController.cs",
+              "ToolTip": "C:\\Data\\Project\\Shuter2d\\Shuter2d\\Assets\\Script\\Sound\\SoundController.cs",
+              "RelativeToolTip": "Assets\\Script\\Sound\\SoundController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T06:51:47.154Z",
               "EditorCaption": ""
             }
           ]
