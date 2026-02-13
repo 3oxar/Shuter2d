@@ -15,4 +15,9 @@ public class OpenScene : MonoBehaviour
     {
         SceneManager.LoadScene(NumberScene);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

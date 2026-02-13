@@ -14,16 +14,13 @@ public class JumpPlayer : MonoBehaviour
     [SerializeField] private LayerMask _groundLayer;
 
     private Rigidbody2D _rb2;
-    private Vector2 _moveInput;
+   
     private PlayerController _inputPlayerController;
 
     void Awake()
     {
         _rb2 = GetComponent<Rigidbody2D>();
         _inputPlayerController = new PlayerController();
-
-        _inputPlayerController.Player.Move.performed += x => _moveInput = x.ReadValue<Vector2>();
-        _inputPlayerController.Player.Move.canceled += x => _moveInput = Vector2.zero;
 
         _inputPlayerController.Player.Jump.performed += x => Jump();
     }
@@ -42,12 +39,17 @@ public class JumpPlayer : MonoBehaviour
 
     void Update()
     {
-        _isGrounded = Physics2D.OverlapCircle(_groundCheck.position, _groundCheckRadius, _groundLayer);
+        _isGrounded = SearchIsGround();
     }
 
     private void Jump()
     {
         if (_isGrounded)
             _rb2.linearVelocity = new Vector2(_rb2.linearVelocity.x, _jumpForce);
+    }
+
+    public bool SearchIsGround()
+    {
+        return Physics2D.OverlapCircle(_groundCheck.position, _groundCheckRadius, _groundLayer);
     }
 }
