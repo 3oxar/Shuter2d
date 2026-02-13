@@ -16,10 +16,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 1920
-    height: 989
+    width: 2560
+    height: 1349
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 332}
   m_MaxSize: {x: 10000, y: 10000}
@@ -44,8 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 989
+    width: 2560
+    height: 1349
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -69,11 +69,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 2560
     height: 36
   m_MinSize: {x: 50, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 13}
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 969
-    width: 1920
+    y: 1329
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -116,12 +116,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 36
-    width: 1920
-    height: 933
+    width: 2560
+    height: 1293
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 180
+  controlID: 25953
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -142,12 +142,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1009
-    height: 933
+    width: 1345
+    height: 1293
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 60
+  controlID: 25929
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -159,25 +159,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1009
-    height: 622
+    width: 1345
+    height: 862
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
+  - {fileID: 14}
+  - {fileID: 12}
   - {fileID: 15}
-  - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -194,16 +194,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 622
-    width: 1009
-    height: 311
+    y: 862
+    width: 1345
+    height: 431
   m_MinSize: {x: 101, y: 126}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
+  - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -221,10 +221,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1009
+    x: 1345
     y: 0
-    width: 229
-    height: 933
+    width: 305
+    height: 1293
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 20}
@@ -247,10 +247,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1238
+    x: 1650
     y: 0
-    width: 279
-    height: 933
+    width: 372
+    height: 1293
   m_MinSize: {x: 232, y: 276}
   m_MaxSize: {x: 10002, y: 10026}
   m_ActualView: {fileID: 21}
@@ -273,10 +273,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1517
+    x: 2022
     y: 0
-    width: 403
-    height: 933
+    width: 538
+    height: 1293
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 22}
@@ -294,212 +294,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12373, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
-  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.AudioMixerWindow
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.GameView
   m_MinSize: {x: 50, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Audio Mixer
-    m_Image: {fileID: 2344599766593239149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
-    m_TextWithWhitespace: "Audio Mixer\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 701
-    width: 1008
-    height: 285
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_DynamicPanelContainerData: []
-    m_OverlaysVisible: 1
-    m_DynamicPanelBehavior: 0
-  m_MixersTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: []
-    m_LastClickedID:
-      m_Data: -51812
-    m_ExpandedIDs:
-    - m_Data: 1010101010
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData:
-        m_Data: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 8}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_LayoutStripsOnTop:
-    m_VerticalSplitter:
-      ID: 0
-      splitterInitialOffset: 0
-      currentActiveSplitter: -1
-      realSizes:
-      - 65
-      - 35
-      relativeSizes:
-      - 0.65
-      - 0.35000002
-      minSizes:
-      - 85
-      - 105
-      maxSizes:
-      - 0
-      - 0
-      lastTotalSize: 0
-      splitSize: 6
-      xOffset: 0
-      m_Version: 1
-      oldRealSizes: 
-      oldMinSizes: 
-      oldMaxSizes: 
-      oldSplitSize: 0
-    m_HorizontalSplitter:
-      ID: 0
-      splitterInitialOffset: 0
-      currentActiveSplitter: -1
-      realSizes:
-      - 60
-      - 60
-      - 60
-      - 60
-      relativeSizes:
-      - 0.25
-      - 0.25
-      - 0.25
-      - 0.25
-      minSizes:
-      - 85
-      - 85
-      - 85
-      - 85
-      maxSizes:
-      - 0
-      - 0
-      - 0
-      - 0
-      lastTotalSize: 0
-      splitSize: 6
-      xOffset: 0
-      m_Version: 1
-      oldRealSizes: 
-      oldMinSizes: 
-      oldMaxSizes: 
-      oldSplitSize: 0
-  m_LayoutStripsOnRight:
-    m_VerticalSplitter:
-      ID: 0
-      splitterInitialOffset: 0
-      currentActiveSplitter: -1
-      realSizes:
-      - 60
-      - 60
-      - 60
-      - 60
-      relativeSizes:
-      - 0.25
-      - 0.25
-      - 0.25
-      - 0.25
-      minSizes:
-      - 100
-      - 85
-      - 85
-      - 85
-      maxSizes:
-      - 0
-      - 0
-      - 0
-      - 0
-      lastTotalSize: 0
-      splitSize: 6
-      xOffset: 0
-      m_Version: 1
-      oldRealSizes: 
-      oldMinSizes: 
-      oldMaxSizes: 
-      oldSplitSize: 0
-    m_HorizontalSplitter:
-      ID: 456
-      splitterInitialOffset: 300
-      currentActiveSplitter: -1
-      realSizes:
-      - 302
-      - 706
-      relativeSizes:
-      - 0.29960316
-      - 0.70039684
-      minSizes:
-      - 160
-      - 160
-      maxSizes:
-      - 0
-      - 0
-      lastTotalSize: 1008
-      splitSize: 6
-      xOffset: 0
-      m_Version: 1
-      oldRealSizes: 
-      oldMinSizes: 
-      oldMaxSizes: 
-      oldSplitSize: 0
-  m_SectionOrder: 00000000030000000100000002000000
-  m_LayoutMode: 1
-  m_SortGroupsAlphabetically: 0
-  m_ShowReferencedBuses: 1
-  m_ShowBusConnections: 0
-  m_ShowBusConnectionsOfSelection: 0
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor.Graphs.dll::UnityEditor.Graphs.AnimatorControllerTool
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Animator\u200B"
+    m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 79
-    width: 1008
-    height: 596
+    width: 1344
+    height: 836
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -513,77 +323,72 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: -1644712454827102405, guid: de73cdbd51b1a4e429a03c2fe0f351a1, type: 2}
-    - {fileID: 229586123357351407, guid: 65b023340fcb79947943e2f10293cd66, type: 2}
-    - {fileID: -1644712454827102405, guid: 31193055c1a5c4d46acf0cf8d3686ea8, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: -9
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 156
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 31193055c1a5c4d46acf0cf8d3686ea8, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: -1644712454827102405, guid: 31193055c1a5c4d46acf0cf8d3686ea8, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &14
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 2560, y: 1440}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 1
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -1280
+    m_HBaseRangeMax: 1280
+    m_VBaseRangeMin: -720
+    m_VBaseRangeMax: 720
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1344
+      height: 815
+    m_Scale: {x: 0.525, y: 0.525}
+    m_Translation: {x: 672, y: 407.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -1280
+      y: -776.1905
+      width: 2560
+      height: 1552.381
+    m_MinimalGUI: 1
+  m_defaultScale: 0.525
+  m_LastWindowPixelSize: {x: 1344, y: 836}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+  m_showToolbar: 1
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -606,7 +411,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 1920
+    width: 2560
     height: 36
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -849,424 +654,7 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor.TestRunner.dll::UnityEditor.TestTools.TestRunner.TestRunnerWindow
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Runner
-    m_Image: {fileID: 0}
-    m_Tooltip: Test framework for running Edit mode and Play mode tests in Unity.
-      Part of the com.unity.test-framework package.
-    m_TextWithWhitespace: "Test Runner\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 79.200005
-    width: 806.2
-    height: 451.6
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_DynamicPanelContainerData: []
-    m_OverlaysVisible: 1
-    m_DynamicPanelBehavior: 0
-  m_Spl:
-    ID: 3584
-    splitterInitialOffset: 0
-    currentActiveSplitter: -1
-    realSizes:
-    - 286.4
-    - 95.20001
-    relativeSizes:
-    - 0.75
-    - 0.25
-    minSizes:
-    - 32
-    - 32
-    maxSizes:
-    - 0
-    - 0
-    lastTotalSize: 381.6
-    splitSize: 6
-    xOffset: 0
-    m_Version: 1
-    oldRealSizes: 
-    oldMinSizes: 
-    oldMaxSizes: 
-    oldSplitSize: 0
-  m_TestTypeToolbarIndex: 1
-  m_TestListGUIs:
-  - m_Window: {fileID: 15}
-    runProgress:
-      RunGuid: a2db5eff-2460-4e37-8361-3bf4f13799cc
-      ExecutionSettings:
-        m_TargetPlatform: 0
-        m_HasTargetPlatform: 0
-        filter:
-          testMode: 0
-          testNames: []
-          groupNames: []
-          categoryNames: []
-          assemblyNames: []
-        filters:
-        - testMode: 2
-          testNames: []
-          groupNames: []
-          categoryNames: []
-          assemblyNames: []
-        runSynchronously: 0
-        playerHeartbeatTimeout: 600
-        orderedTestNames: []
-        ignoreTests: []
-        featureFlags:
-          fileCleanUpCheck: 0
-          requiresSplashScreen: 0
-          strictDomainReload: 0
-          disableNestedEnumeratorBugfix: 0
-        randomOrderSeed: 0
-      HasFinished: 1
-      Progress: 0.99999994
-      CurrentStepName: Unlock Reload Assemblies
-      CurrentStageName: 
-    m_NewResultList:
-    - id: 1004
-      uniqueId: '[TrainingProject][suite]'
-      name: TrainingProject
-      fullName: TrainingProject
-      resultStatus: 2
-      duration: 0.0119722
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1007
-      uniqueId: '[Tests][Z:/Project/TrainingProject/TrainingProject/Library/ScriptAssemblies/Tests.dll][suite]'
-      name: Tests.dll
-      fullName: Z:/Project/TrainingProject/TrainingProject/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 2
-      duration: 0.0119722
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1012
-      parentUniqueId: '[TrainingProject][suite]'
-    - id: 1005
-      uniqueId: 'Tests.dll/[Tests][NewTestScript][suite]'
-      name: NewTestScript
-      fullName: NewTestScript
-      resultStatus: 2
-      duration: 0.0119722
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1007
-      parentUniqueId: '[Tests][Z:/Project/TrainingProject/TrainingProject/Library/ScriptAssemblies/Tests.dll][suite]'
-    - id: 1006
-      uniqueId: 'Tests.dll/NewTestScript/[Tests][NewTestScript.NewTestScriptWithEnumeratorPasses]'
-      name: NewTestScriptWithEnumeratorPasses
-      fullName: NewTestScript.NewTestScriptWithEnumeratorPasses
-      resultStatus: 2
-      duration: 0.0119722
-      messages: 'System.InvalidOperationException : This can only be used during
-        play mode, please use EditorSceneManager.OpenScene() instead.'
-      output: 
-      stacktrace: "  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
-        at UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal
-        (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-        parameters, System.Boolean mustCompleteNextFrame) [0x0002a] in <f27f375161264267910e5cbe7a0862ec>:0
-        \r\n  at UnityEngine.SceneManagement.SceneManagerAPI.LoadSceneAsyncByNameOrIndex
-        (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-        parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <f27f375161264267910e5cbe7a0862ec>:0
-        \r\n  at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
-        (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-        parameters, System.Boolean mustCompleteNextFrame) [0x00016] in <f27f375161264267910e5cbe7a0862ec>:0
-        \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32
-        sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters)
-        [0x00001] in <f27f375161264267910e5cbe7a0862ec>:0 \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene
-        (System.Int32 sceneBuildIndex) [0x00009] in <f27f375161264267910e5cbe7a0862ec>:0
-        \r\n  at NewTestScript+<NewTestScriptWithEnumeratorPasses>d__1.MoveNext ()
-        [0x0001e] in Z:\\Project\\TrainingProject\\TrainingProject\\Assets\\Tests\\NewTestScript.cs:17
-        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-        in .\\Library\\PackageCache\\com.unity.test-framework@40e262928427\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1005
-      parentUniqueId: 'Tests.dll/[Tests][NewTestScript][suite]'
-    m_ResultText: "NewTestScriptWithEnumeratorPasses (0,012s)\n---\nSystem.InvalidOperationException
-      : This can only be used during play mode, please use EditorSceneManager.OpenScene()
-      instead.\n---\n  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
-      at UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x0002a] in <f27f375161264267910e5cbe7a0862ec>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManagerAPI.LoadSceneAsyncByNameOrIndex
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <f27f375161264267910e5cbe7a0862ec>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x00016] in <f27f375161264267910e5cbe7a0862ec>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex,
-      UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001] in <f27f375161264267910e5cbe7a0862ec>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex)
-      [0x00009] in <f27f375161264267910e5cbe7a0862ec>:0 \r\n  at NewTestScript+<NewTestScriptWithEnumeratorPasses>d__1.MoveNext
-      () [0x0001e] in <color=#40a0ff><a href=\"Z:\\Project\\TrainingProject\\TrainingProject\\Assets\\Tests\\NewTestScript.cs\"
-      line=\"17 \r\">Assets\\Tests\\NewTestScript.cs:17 \r</a></color>\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext
-      () [0x0003a] in <color=#40a0ff><a href=\".\\Library\\PackageCache\\com.unity.test-framework@40e262928427\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs\"
-      line=\"44 \">Library\\PackageCache\\com.unity.test-framework@40e262928427\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44
-      </a></color>"
-    m_ResultStacktrace: "  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
-      at UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x0002a] in <f27f375161264267910e5cbe7a0862ec>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManagerAPI.LoadSceneAsyncByNameOrIndex
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <f27f375161264267910e5cbe7a0862ec>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x00016] in <f27f375161264267910e5cbe7a0862ec>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex,
-      UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001] in <f27f375161264267910e5cbe7a0862ec>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex)
-      [0x00009] in <f27f375161264267910e5cbe7a0862ec>:0 \r\n  at NewTestScript+<NewTestScriptWithEnumeratorPasses>d__1.MoveNext
-      () [0x0001e] in Z:\\Project\\TrainingProject\\TrainingProject\\Assets\\Tests\\NewTestScript.cs:17
-      \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
-      in .\\Library\\PackageCache\\com.unity.test-framework@40e262928427\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 "
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 52fc473a
-      m_LastClickedID: 977796178
-      m_ExpandedIDs: 13e023e44f9971f822524b3affffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategories: []
-      availableCategories:
-      - Uncategorized
-    m_SelectedOption: 0
-  - m_Window: {fileID: 15}
-    runProgress:
-      RunGuid: a2db5eff-2460-4e37-8361-3bf4f13799cc
-      ExecutionSettings:
-        m_TargetPlatform: 0
-        m_HasTargetPlatform: 0
-        filter:
-          testMode: 0
-          testNames: []
-          groupNames: []
-          categoryNames: []
-          assemblyNames: []
-        filters:
-        - testMode: 2
-          testNames: []
-          groupNames: []
-          categoryNames: []
-          assemblyNames: []
-        runSynchronously: 0
-        playerHeartbeatTimeout: 600
-        orderedTestNames: []
-        ignoreTests: []
-        featureFlags:
-          fileCleanUpCheck: 0
-          requiresSplashScreen: 0
-          strictDomainReload: 0
-          disableNestedEnumeratorBugfix: 0
-        randomOrderSeed: 0
-      HasFinished: 1
-      Progress: 0.99999994
-      CurrentStepName: Unlock Reload Assemblies
-      CurrentStageName: 
-    m_NewResultList:
-    - id: 1000
-      uniqueId: '[Shuter2d][suite]'
-      name: Shuter2d
-      fullName: Shuter2d
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    m_ResultText: ReferenceObjectPlayerTest (1,004s)
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a38c119f
-      m_LastClickedID: -1626239837
-      m_ExpandedIDs: 6b234e9d13e023e401ec93eb4f9971f822524b3affffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategories: []
-      availableCategories:
-      - Uncategorized
-    m_SelectedOption: 0
-  - m_Window: {fileID: 15}
-    runProgress:
-      RunGuid: a2db5eff-2460-4e37-8361-3bf4f13799cc
-      ExecutionSettings:
-        m_TargetPlatform: 0
-        m_HasTargetPlatform: 0
-        filter:
-          testMode: 0
-          testNames: []
-          groupNames: []
-          categoryNames: []
-          assemblyNames: []
-        filters:
-        - testMode: 2
-          testNames: []
-          groupNames: []
-          categoryNames: []
-          assemblyNames: []
-        runSynchronously: 0
-        playerHeartbeatTimeout: 600
-        orderedTestNames: []
-        ignoreTests: []
-        featureFlags:
-          fileCleanUpCheck: 0
-          requiresSplashScreen: 0
-          strictDomainReload: 0
-          disableNestedEnumeratorBugfix: 0
-        randomOrderSeed: 0
-      HasFinished: 1
-      Progress: 0.99999994
-      CurrentStepName: Unlock Reload Assemblies
-      CurrentStageName: 
-    m_NewResultList:
-    - id: 1008
-      uniqueId: '[TrainingProject][suite]'
-      name: TrainingProject
-      fullName: TrainingProject
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    m_ResultText: 
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 4f9971f8ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategories: []
-      availableCategories:
-      - Uncategorized
-    m_SelectedOption: 0
---- !u!114 &16
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1289,8 +677,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 79
-    width: 1008
-    height: 596
+    width: 1344
+    height: 836
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1973,9 +1361,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 9.818122, y: 1.2238877, z: -0.07134912}
+    m_Target: {x: 2.982749, y: 3.468377, z: -0.01191254}
     speed: 2
-    m_Value: {x: 9.818122, y: 1.2238877, z: -0.07134912}
+    m_Value: {x: 2.982749, y: 3.468377, z: -0.01191254}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2025,9 +1413,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.5961018
+    m_Target: 1.7569395
     speed: 2
-    m_Value: 7.5961018
+    m_Value: 1.7569395
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2048,7 +1436,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
-    m_SceneView: {fileID: 16}
+    m_SceneView: {fileID: 14}
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
@@ -2061,7 +1449,7 @@ MonoBehaviour:
     name: Contributors / Receivers
     section: Lighting
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2069,17 +1457,434 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_EditorClassIdentifier: UnityEditor.TestRunner.dll::UnityEditor.TestTools.TestRunner.TestRunnerWindow
+  m_MinSize: {x: 50, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: Test framework for running Edit mode and Play mode tests in Unity.
+      Part of the com.unity.test-framework package.
+    m_TextWithWhitespace: "Test Runner\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 79.200005
+    width: 806.2
+    height: 451.6
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_Spl:
+    ID: 3584
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 286.4
+    - 95.20001
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 381.6
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_TestListGUIs:
+  - m_Window: {fileID: 15}
+    runProgress:
+      RunGuid: a2db5eff-2460-4e37-8361-3bf4f13799cc
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 2
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.99999994
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1004
+      uniqueId: '[TrainingProject][suite]'
+      name: TrainingProject
+      fullName: TrainingProject
+      resultStatus: 2
+      duration: 0.0119722
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1007
+      uniqueId: '[Tests][Z:/Project/TrainingProject/TrainingProject/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: Z:/Project/TrainingProject/TrainingProject/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 2
+      duration: 0.0119722
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: '[TrainingProject][suite]'
+    - id: 1005
+      uniqueId: 'Tests.dll/[Tests][NewTestScript][suite]'
+      name: NewTestScript
+      fullName: NewTestScript
+      resultStatus: 2
+      duration: 0.0119722
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: '[Tests][Z:/Project/TrainingProject/TrainingProject/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1006
+      uniqueId: 'Tests.dll/NewTestScript/[Tests][NewTestScript.NewTestScriptWithEnumeratorPasses]'
+      name: NewTestScriptWithEnumeratorPasses
+      fullName: NewTestScript.NewTestScriptWithEnumeratorPasses
+      resultStatus: 2
+      duration: 0.0119722
+      messages: 'System.InvalidOperationException : This can only be used during
+        play mode, please use EditorSceneManager.OpenScene() instead.'
+      output: 
+      stacktrace: "  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
+        at UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal
+        (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+        parameters, System.Boolean mustCompleteNextFrame) [0x0002a] in <f27f375161264267910e5cbe7a0862ec>:0
+        \r\n  at UnityEngine.SceneManagement.SceneManagerAPI.LoadSceneAsyncByNameOrIndex
+        (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+        parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <f27f375161264267910e5cbe7a0862ec>:0
+        \r\n  at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
+        (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+        parameters, System.Boolean mustCompleteNextFrame) [0x00016] in <f27f375161264267910e5cbe7a0862ec>:0
+        \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32
+        sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters)
+        [0x00001] in <f27f375161264267910e5cbe7a0862ec>:0 \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene
+        (System.Int32 sceneBuildIndex) [0x00009] in <f27f375161264267910e5cbe7a0862ec>:0
+        \r\n  at NewTestScript+<NewTestScriptWithEnumeratorPasses>d__1.MoveNext ()
+        [0x0001e] in Z:\\Project\\TrainingProject\\TrainingProject\\Assets\\Tests\\NewTestScript.cs:17
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in .\\Library\\PackageCache\\com.unity.test-framework@40e262928427\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: 'Tests.dll/[Tests][NewTestScript][suite]'
+    m_ResultText: "NewTestScriptWithEnumeratorPasses (0,012s)\n---\nSystem.InvalidOperationException
+      : This can only be used during play mode, please use EditorSceneManager.OpenScene()
+      instead.\n---\n  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
+      at UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal
+      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+      parameters, System.Boolean mustCompleteNextFrame) [0x0002a] in <f27f375161264267910e5cbe7a0862ec>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManagerAPI.LoadSceneAsyncByNameOrIndex
+      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <f27f375161264267910e5cbe7a0862ec>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
+      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+      parameters, System.Boolean mustCompleteNextFrame) [0x00016] in <f27f375161264267910e5cbe7a0862ec>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex,
+      UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001] in <f27f375161264267910e5cbe7a0862ec>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex)
+      [0x00009] in <f27f375161264267910e5cbe7a0862ec>:0 \r\n  at NewTestScript+<NewTestScriptWithEnumeratorPasses>d__1.MoveNext
+      () [0x0001e] in <color=#40a0ff><a href=\"Z:\\Project\\TrainingProject\\TrainingProject\\Assets\\Tests\\NewTestScript.cs\"
+      line=\"17 \r\">Assets\\Tests\\NewTestScript.cs:17 \r</a></color>\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext
+      () [0x0003a] in <color=#40a0ff><a href=\".\\Library\\PackageCache\\com.unity.test-framework@40e262928427\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs\"
+      line=\"44 \">Library\\PackageCache\\com.unity.test-framework@40e262928427\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44
+      </a></color>"
+    m_ResultStacktrace: "  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
+      at UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal
+      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+      parameters, System.Boolean mustCompleteNextFrame) [0x0002a] in <f27f375161264267910e5cbe7a0862ec>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManagerAPI.LoadSceneAsyncByNameOrIndex
+      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <f27f375161264267910e5cbe7a0862ec>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
+      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+      parameters, System.Boolean mustCompleteNextFrame) [0x00016] in <f27f375161264267910e5cbe7a0862ec>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex,
+      UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001] in <f27f375161264267910e5cbe7a0862ec>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex)
+      [0x00009] in <f27f375161264267910e5cbe7a0862ec>:0 \r\n  at NewTestScript+<NewTestScriptWithEnumeratorPasses>d__1.MoveNext
+      () [0x0001e] in Z:\\Project\\TrainingProject\\TrainingProject\\Assets\\Tests\\NewTestScript.cs:17
+      \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+      in .\\Library\\PackageCache\\com.unity.test-framework@40e262928427\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:44 "
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 52fc473a
+      m_LastClickedID: 977796178
+      m_ExpandedIDs: 13e023e44f9971f822524b3affffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  - m_Window: {fileID: 15}
+    runProgress:
+      RunGuid: a2db5eff-2460-4e37-8361-3bf4f13799cc
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 2
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.99999994
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Shuter2d][suite]'
+      name: Shuter2d
+      fullName: Shuter2d
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: ReferenceObjectPlayerTest (1,004s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a38c119f
+      m_LastClickedID: -1626239837
+      m_ExpandedIDs: 6b234e9d13e023e401ec93eb4f9971f822524b3affffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  - m_Window: {fileID: 15}
+    runProgress:
+      RunGuid: a2db5eff-2460-4e37-8361-3bf4f13799cc
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 2
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.99999994
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1008
+      uniqueId: '[TrainingProject][suite]'
+      name: TrainingProject
+      fullName: TrainingProject
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 4f9971f8ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.Graphs.dll::UnityEditor.Graphs.AnimatorControllerTool
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
-    m_TextWithWhitespace: "Game\u200B"
+    m_TextWithWhitespace: "Animator\u200B"
   m_Pos:
     serializedVersion: 2
     x: 0
@@ -2099,72 +1904,77 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 2560, y: 1440}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -1280
-    m_HBaseRangeMax: 1280
-    m_VBaseRangeMin: -720
-    m_VBaseRangeMax: 720
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 1008
-      height: 575
-    m_Scale: {x: 0.39375, y: 0.39375}
-    m_Translation: {x: 504, y: 287.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -1280
-      y: -730.1587
-      width: 2560
-      height: 1460.3174
-    m_MinimalGUI: 1
-  m_defaultScale: 0.39375
-  m_LastWindowPixelSize: {x: 1008, y: 596}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000001000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
-  m_showToolbar: 1
---- !u!114 &18
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -1644712454827102405, guid: de73cdbd51b1a4e429a03c2fe0f351a1, type: 2}
+    - {fileID: 229586123357351407, guid: 65b023340fcb79947943e2f10293cd66, type: 2}
+    - {fileID: -1644712454827102405, guid: 31193055c1a5c4d46acf0cf8d3686ea8, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: -9
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 156
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 65b023340fcb79947943e2f10293cd66, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 229586123357351407, guid: 65b023340fcb79947943e2f10293cd66, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2186,9 +1996,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 701
-    width: 1008
-    height: 285
+    y: 941
+    width: 1344
+    height: 405
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2202,7 +2012,7 @@ MonoBehaviour:
     m_DynamicPanelContainerData: []
     m_OverlaysVisible: 1
     m_DynamicPanelBehavior: 0
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2243,6 +2053,196 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 49700
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12373, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.AudioMixerWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Audio Mixer
+    m_Image: {fileID: 2344599766593239149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Audio Mixer\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 701
+    width: 1008
+    height: 285
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_MixersTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: []
+    m_LastClickedID:
+      m_Data: -51812
+    m_ExpandedIDs:
+    - m_Data: 1010101010
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 8}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_LayoutStripsOnTop:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 65
+      - 35
+      relativeSizes:
+      - 0.65
+      - 0.35000002
+      minSizes:
+      - 85
+      - 105
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 85
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_LayoutStripsOnRight:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 100
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 456
+      splitterInitialOffset: 300
+      currentActiveSplitter: -1
+      realSizes:
+      - 302
+      - 706
+      relativeSizes:
+      - 0.29960316
+      - 0.70039684
+      minSizes:
+      - 160
+      - 160
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 1008
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_SectionOrder: 00000000030000000100000002000000
+  m_LayoutMode: 1
+  m_SortGroupsAlphabetically: 0
+  m_ShowReferencedBuses: 1
+  m_ShowBusConnections: 0
+  m_ShowBusConnectionsOfSelection: 0
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2264,10 +2264,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1009
+    x: 1345
     y: 79
-    width: 227
-    height: 907
+    width: 303
+    height: 1267
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2285,13 +2285,23 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 49700
+      - m_Data: -161146
       m_LastClickedID:
-        m_Data: 0
+        m_Data: -161146
       m_ExpandedIDs:
-      - m_Data: -2416
-      - m_Data: -1462
-      - m_Data: 51162
+      - m_Data: -161146
+      - m_Data: -148074
+      - m_Data: -43924
+      - m_Data: -43488
+      - m_Data: -39246
+      - m_Data: -32250
+      - m_Data: -4452
+      - m_Data: -3528
+      - m_Data: 53470
+      - m_Data: 53518
+      - m_Data: 53532
+      - m_Data: 53550
+      - m_Data: 53754
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2338,10 +2348,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1238
+    x: 1650
     y: 79
-    width: 277
-    height: 907
+    width: 370
+    height: 1267
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2366,7 +2376,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Pallete
+    - Assets/Prefab/Bullet
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2377,7 +2387,7 @@ MonoBehaviour:
   m_StartGridSize: 75
   m_LastFolders: []
   m_LastFoldersGridSize: 75
-  m_LastProjectPath: C:\Data\Project\Shuter2d\Shuter2d
+  m_LastProjectPath: Z:\Project\Shuter2d\Shuter2d
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
@@ -2388,67 +2398,81 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49548
-    - m_Data: 49630
+    - m_Data: 636
     - m_Data: 49702
-    - m_Data: 50942
-    - m_Data: 52140
-    - m_Data: 52142
-    - m_Data: 52144
-    - m_Data: 52146
-    - m_Data: 52148
-    - m_Data: 52150
-    - m_Data: 52152
-    - m_Data: 52154
-    - m_Data: 52156
-    - m_Data: 52158
-    - m_Data: 52160
-    - m_Data: 52162
-    - m_Data: 52164
-    - m_Data: 52166
-    - m_Data: 52168
-    - m_Data: 52170
-    - m_Data: 52172
-    - m_Data: 52174
-    - m_Data: 52176
-    - m_Data: 52178
-    - m_Data: 52180
-    - m_Data: 52182
-    - m_Data: 52184
-    - m_Data: 52186
-    - m_Data: 52188
-    - m_Data: 52190
-    - m_Data: 52192
-    - m_Data: 52194
-    - m_Data: 52196
-    - m_Data: 52198
-    - m_Data: 52200
-    - m_Data: 52202
-    - m_Data: 52204
-    - m_Data: 52206
-    - m_Data: 52208
-    - m_Data: 52210
-    - m_Data: 52212
-    - m_Data: 52214
-    - m_Data: 52216
-    - m_Data: 52218
-    - m_Data: 52220
-    - m_Data: 52222
-    - m_Data: 52224
-    - m_Data: 52226
-    - m_Data: 52228
-    - m_Data: 52230
-    - m_Data: 52232
-    - m_Data: 52234
-    - m_Data: 52236
-    - m_Data: 52238
-    - m_Data: 52240
-    - m_Data: 52242
-    - m_Data: 52244
-    - m_Data: 52246
-    - m_Data: 52248
-    - m_Data: 52250
-    - m_Data: 52252
+    - m_Data: 50686
+    - m_Data: 50776
+    - m_Data: 50796
+    - m_Data: 50808
+    - m_Data: 50828
+    - m_Data: 51316
+    - m_Data: 53000
+    - m_Data: 53002
+    - m_Data: 53004
+    - m_Data: 53006
+    - m_Data: 53008
+    - m_Data: 53010
+    - m_Data: 53012
+    - m_Data: 53014
+    - m_Data: 53016
+    - m_Data: 53018
+    - m_Data: 53020
+    - m_Data: 53022
+    - m_Data: 53024
+    - m_Data: 53026
+    - m_Data: 53028
+    - m_Data: 53030
+    - m_Data: 53032
+    - m_Data: 53034
+    - m_Data: 53036
+    - m_Data: 53038
+    - m_Data: 53040
+    - m_Data: 53042
+    - m_Data: 53044
+    - m_Data: 53046
+    - m_Data: 53048
+    - m_Data: 53050
+    - m_Data: 53052
+    - m_Data: 53054
+    - m_Data: 53056
+    - m_Data: 53058
+    - m_Data: 53060
+    - m_Data: 53062
+    - m_Data: 53064
+    - m_Data: 53066
+    - m_Data: 53068
+    - m_Data: 53070
+    - m_Data: 53072
+    - m_Data: 53074
+    - m_Data: 53076
+    - m_Data: 53078
+    - m_Data: 53080
+    - m_Data: 53082
+    - m_Data: 53084
+    - m_Data: 53086
+    - m_Data: 53088
+    - m_Data: 53090
+    - m_Data: 53092
+    - m_Data: 53094
+    - m_Data: 53096
+    - m_Data: 53098
+    - m_Data: 53100
+    - m_Data: 53102
+    - m_Data: 53104
+    - m_Data: 53106
+    - m_Data: 53108
+    - m_Data: 53110
+    - m_Data: 53112
+    - m_Data: 53114
+    - m_Data: 53116
+    - m_Data: 53118
+    - m_Data: 53120
+    - m_Data: 53122
+    - m_Data: 53402
+    - m_Data: 73698
+    - m_Data: 73728
+    - m_Data: 73834
+    - m_Data: 76410
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2475,79 +2499,88 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 1131}
     m_SelectedIDs:
-    - m_Data: 49700
+    - m_Data: -161146
     m_LastClickedID:
-      m_Data: 49700
+      m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49548
+    - m_Data: 636
     - m_Data: 49702
-    - m_Data: 50942
-    - m_Data: 52140
-    - m_Data: 52142
-    - m_Data: 52144
-    - m_Data: 52146
-    - m_Data: 52148
-    - m_Data: 52150
-    - m_Data: 52152
-    - m_Data: 52154
-    - m_Data: 52156
-    - m_Data: 52158
-    - m_Data: 52160
-    - m_Data: 52162
-    - m_Data: 52164
-    - m_Data: 52166
-    - m_Data: 52168
-    - m_Data: 52170
-    - m_Data: 52172
-    - m_Data: 52174
-    - m_Data: 52176
-    - m_Data: 52178
-    - m_Data: 52180
-    - m_Data: 52182
-    - m_Data: 52184
-    - m_Data: 52186
-    - m_Data: 52188
-    - m_Data: 52192
-    - m_Data: 52196
-    - m_Data: 52198
-    - m_Data: 52200
-    - m_Data: 52202
-    - m_Data: 52204
-    - m_Data: 52206
-    - m_Data: 52208
-    - m_Data: 52210
-    - m_Data: 52212
-    - m_Data: 52214
-    - m_Data: 52216
-    - m_Data: 52218
-    - m_Data: 52220
-    - m_Data: 52222
-    - m_Data: 52224
-    - m_Data: 52226
-    - m_Data: 52228
-    - m_Data: 52230
-    - m_Data: 52232
-    - m_Data: 52234
-    - m_Data: 52236
-    - m_Data: 52238
-    - m_Data: 52240
-    - m_Data: 52242
-    - m_Data: 52244
-    - m_Data: 52248
-    - m_Data: 52250
-    - m_Data: 52516
-    - m_Data: 52522
-    - m_Data: 52606
-    - m_Data: 52628
-    - m_Data: 52684
-    - m_Data: 52686
-    - m_Data: 52730
-    - m_Data: 53548
-    - m_Data: 53552
-    - m_Data: 53558
+    - m_Data: 50686
+    - m_Data: 50776
+    - m_Data: 50796
+    - m_Data: 50808
+    - m_Data: 50828
+    - m_Data: 51316
+    - m_Data: 53000
+    - m_Data: 53002
+    - m_Data: 53004
+    - m_Data: 53006
+    - m_Data: 53008
+    - m_Data: 53010
+    - m_Data: 53012
+    - m_Data: 53014
+    - m_Data: 53016
+    - m_Data: 53018
+    - m_Data: 53020
+    - m_Data: 53022
+    - m_Data: 53024
+    - m_Data: 53026
+    - m_Data: 53028
+    - m_Data: 53030
+    - m_Data: 53032
+    - m_Data: 53034
+    - m_Data: 53036
+    - m_Data: 53038
+    - m_Data: 53040
+    - m_Data: 53042
+    - m_Data: 53044
+    - m_Data: 53046
+    - m_Data: 53048
+    - m_Data: 53050
+    - m_Data: 53052
+    - m_Data: 53054
+    - m_Data: 53056
+    - m_Data: 53058
+    - m_Data: 53060
+    - m_Data: 53062
+    - m_Data: 53064
+    - m_Data: 53066
+    - m_Data: 53068
+    - m_Data: 53070
+    - m_Data: 53072
+    - m_Data: 53074
+    - m_Data: 53076
+    - m_Data: 53078
+    - m_Data: 53080
+    - m_Data: 53082
+    - m_Data: 53084
+    - m_Data: 53086
+    - m_Data: 53088
+    - m_Data: 53090
+    - m_Data: 53092
+    - m_Data: 53094
+    - m_Data: 53096
+    - m_Data: 53098
+    - m_Data: 53100
+    - m_Data: 53102
+    - m_Data: 53104
+    - m_Data: 53106
+    - m_Data: 53108
+    - m_Data: 53110
+    - m_Data: 53112
+    - m_Data: 53114
+    - m_Data: 53116
+    - m_Data: 53118
+    - m_Data: 53120
+    - m_Data: 53122
+    - m_Data: 53402
+    - m_Data: 73698
+    - m_Data: 73728
+    - m_Data: 73834
+    - m_Data: 76410
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2575,8 +2608,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 49700
-    m_LastClickedInstanceID: 49700
+    - m_Data: -161146
+    m_LastClickedInstanceID: -161146
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -2629,10 +2662,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1517
+    x: 2022
     y: 79
-    width: 402
-    height: 907
+    width: 537
+    height: 1267
   m_SerializedDataModeController:
     m_DataMode: 2
     m_PreferredDataMode: 0

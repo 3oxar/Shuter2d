@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class FlyBullet : MonoBehaviour
@@ -31,12 +32,16 @@ public class FlyBullet : MonoBehaviour
     {
         IHealth health = collision.gameObject.GetComponent<IHealth>();
         if (health != null)
+        {
             health.TakeDamage(_damage);
+        }
 
         _hitRB = collision.gameObject.GetComponent<Rigidbody2D>();
         if (_hitRB != null)
+        {
             _hitRB.linearVelocity = Vector2.zero;
-            
+        }
         Destroy(gameObject);
     }
+
 }

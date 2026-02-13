@@ -11,11 +11,13 @@ public class MovePlayer : MonoBehaviour
     private Rigidbody2D _rb2;
     private Vector2 _moveInput;
     private PlayerController _inputPlayerController;
+    private JumpPlayer _jumpPlayer;
 
     void Awake()
     {
         _rb2 = GetComponent<Rigidbody2D>();
         _inputPlayerController = new PlayerController();
+        _jumpPlayer = GetComponent<JumpPlayer>();
 
         _inputPlayerController.Player.Move.performed += x => _moveInput = x.ReadValue<Vector2>();
         _inputPlayerController.Player.Move.canceled += x => _moveInput = Vector2.zero;

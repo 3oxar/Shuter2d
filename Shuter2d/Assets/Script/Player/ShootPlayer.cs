@@ -16,12 +16,12 @@ public class ShootPlayer : MonoBehaviour
 
     private PlayerController _inputPlayerController;
     private float _nextFireTime = 0;
+    private float _rotateZ;
     private int _ammunationCoutReload;
 
     private Vector3 _mousePosition;
     private Vector3 _worldMousePosition;
     private Vector2 _directionToTarget;
-
 
     void Awake()
     {
@@ -51,11 +51,11 @@ public class ShootPlayer : MonoBehaviour
     {
         if(Time.time >= _nextFireTime && _ammunation > 0)
         {
-            
             _mousePosition = Mouse.current.position.ReadValue();
             _worldMousePosition = _mainCamera.ScreenToWorldPoint(_mousePosition);
             _worldMousePosition.z = 0;
             _directionToTarget = (_worldMousePosition - _firePoint.position).normalized;
+            _directionToTarget = _firePoint.right;
          
             GameObject bulletGO = Instantiate(_bulletPrefab, _firePoint.position, Quaternion.identity);
             FlyBullet bulletScript = bulletGO.GetComponent<FlyBullet>();

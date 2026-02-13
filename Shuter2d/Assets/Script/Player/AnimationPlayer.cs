@@ -13,7 +13,7 @@ public class AnimationPlayer : MonoBehaviour
     {
         _inputPlayerController = new PlayerController();
         _animator = GetComponent<Animator>();
-        _jumpPlayer = GetComponent<JumpPlayer>();
+        _jumpPlayer = GetComponentInParent<JumpPlayer>();
 
         _inputPlayerController.Player.Move.performed += x => _moveInput = x.ReadValue<Vector2>();
         _inputPlayerController.Player.Move.canceled += x => _moveInput = Vector2.zero;
