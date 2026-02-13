@@ -31268,6 +31268,7 @@ MonoBehaviour:
   _textCanvas: {fileID: 964091958}
   _endGame: {fileID: 27562982}
   _audioDamageSource: {fileID: 1109494000}
+  _audioSourceDead: {fileID: 157125128}
 --- !u!114 &826615753
 MonoBehaviour:
   m_ObjectHideFlags: 0
