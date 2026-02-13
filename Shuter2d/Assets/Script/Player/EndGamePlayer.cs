@@ -19,10 +19,10 @@ public class EndGamePlayer : MonoBehaviour
     public void EndGame()
     {
         Time.timeScale = 0f;
+        _text.text += _scorePlayer.CoutScorePlayer;
         _endGamePanel.gameObject.SetActive(true);
         _menuButton.gameObject.SetActive(false);
         _gamePanel.gameObject.SetActive(false);
-        _text.text += _scorePlayer.CoutScorePlayer;
     }
     
 }

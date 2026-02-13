@@ -12,9 +12,11 @@ public class EnemyHealth : MonoBehaviour, IHealth
     private ScorePlayer _score;
     private AudioSource _audioSource;
     private Animator _animator;
+    private EnemyRangeAttack _enemyRangeAttack; 
 
     private void Start()
     {
+        _enemyRangeAttack = GetComponent<EnemyRangeAttack>();
         _score = FindAnyObjectByType<ScorePlayer>();
         _audioSource = GetComponent<AudioSource>();
         _animator = GetComponent<Animator>();
@@ -39,10 +41,12 @@ public class EnemyHealth : MonoBehaviour, IHealth
     {
         _score.ScoreAdd(_coutScore);
         _audioSource.Play();
+        if (_enemyRangeAttack != null)
+        _enemyRangeAttack.enabled = false;
+
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         Destroy(_gameObject, 0.5f);
     }
-
    
 }

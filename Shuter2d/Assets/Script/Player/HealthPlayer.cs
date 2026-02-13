@@ -16,7 +16,7 @@ public class HealthPlayer : MonoBehaviour, IHealthPlayer
     {
        
         _textCanvas.WriteText(_healthPlayer.ToString());
-        _animPlayer = GetComponent<Animator>();
+        _animPlayer = GetComponentInChildren<Animator>();
         _audioSource = GetComponent<AudioSource>();
     }
 

@@ -55,7 +55,7 @@ public class ShootPlayer : MonoBehaviour
             _worldMousePosition = _mainCamera.ScreenToWorldPoint(_mousePosition);
             _worldMousePosition.z = 0;
             _directionToTarget = (_worldMousePosition - _firePoint.position).normalized;
-            _directionToTarget = _firePoint.right;
+            
          
             GameObject bulletGO = Instantiate(_bulletPrefab, _firePoint.position, Quaternion.identity);
             FlyBullet bulletScript = bulletGO.GetComponent<FlyBullet>();
@@ -67,20 +67,19 @@ public class ShootPlayer : MonoBehaviour
                 _textCanvas.WriteText(_ammunation.ToString());
                 bulletScript.Launch(_directionToTarget, gameObject);
             }
+
+            if (_ammunation < 1)
+            {
+                StartCoroutine(WriteReloadAmmunation());
+            }
             _nextFireTime = Time.time + _fireRate;
-        }
-        else if(Time.time >= _nextFireTime && _ammunation < 1)
-        {
-            _ammunation = 5;
-            _textCanvas.WriteText(_ammunation.ToString());
-            StartCoroutine(WriteReloadAmmunation());
-            _nextFireTime = Time.time + _reloadTime;
         }
     }
 
     private IEnumerator WriteReloadAmmunation()
     {
-        yield return new WaitForSeconds(_nextFireTime);
+        yield return new WaitForSeconds(_reloadTime);
+        _ammunation = 5;
         _textCanvas.WriteText(_ammunation.ToString());
     }
 }
